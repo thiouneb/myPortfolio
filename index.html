@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio de Bassirou THIOUNE, data scientist</title>
+    <meta name="descirption" content="Bienvenue sur mon portfolio! Je suis Alexandre, développeur fullstack
+    (avec un penchant pour le back) passionné par le code et toujours en quête de connaissances
+    et de perfectionnement.">
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Bassirou THIOUNE</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Accueil</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">A propos</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Compétences</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">Projets</a></li>
+                    <!-- <li class="nav__item"><a href="#services" class="nav__link">Services</a></li> -->
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contactez-moi</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__data">
+                    <div class="home__img">
+                        <img src="assets/img/profil.jpg" alt="Photo de profil Bassirou THIOUNE">
+                    </div>
+
+                    <h1 class="home__title">Bassirou THIOUNE</h1>
+                    <span class="home__profession">Data Scientist/Développeur Web</span>
+
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/bassirou-thioune-01b9131b6" class="home__social-link" target="_blank"><i
+                                class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/thiouneb" class="home__social-link" target="_blank"><i
+                                class="bx bxl-github"></i></a>
+                    </div>
+
+                    <div class="home__buttons">
+                        <a download="" href="assets/CV_bassirou_thioune.pdf" class="button home__button" target="_blank">Télécharger
+                            CV</a>
+                        <a download="" href="#contact" class="button home__button">Me Contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <span class="section-subtitle">Introduction</span>
+            <h2 class="section-title">Qui suis-je?</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__description">Bienvenue sur mon portfolio! Je suis Bassirou, data scientist de base
+                        mais aussi avec des compétences solides en développement Web(backend surtout). 
+                        Je suis un passionné des données mais surtout la masse d'information que l'on peut en tirer, si toutefois 
+                        on sait bien les traiter. Je suis aussi intéressé par l'apprentissage automatique et toujours en quête 
+                        de connaissances et de perfectionnement sur ces disciplines ayant tous un point commun : la DATA.
+                    </p>
+                    <!-- <img src="assets/img/about.jfif" alt="" class="about__img"> -->
+                </div>
+
+                <div>
+                    <div class="about__information">
+                        <h3 class="about__information-title">Information</h3>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-user about__information-icon"></i>
+                            <span>Bassirou THIOUNE</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-phone about__information-icon"></i>
+                            <span>07 55 05 78 00</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-envelope about__information-icon"></i>
+                            <span>bachirmailpro980@gmail.com</span>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="fas fa-map-marker-alt about__information-icon-gps"></i>
+                            <span>Caen, France</span>
+                        </div>
+                    </div>
+
+                    <!-- <div class="about__information">
+                        <h3 class="about__information-title">Experience</h3>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-medal about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">5 ans</span>
+                                <span class="about__information-subtitle-small">Experience</span>
+                            </div>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-briefcase about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">50+ Projects</span>
+                                <span class="about__information-subtitle-small">Completed</span>
+                            </div>
+                        </div>
+
+                        <div class="about__information-data">
+                            <i class="bx bx-support about__information-icon"></i>
+                            <div>
+                                <span class="about__information-subtitle">Support</span>
+                                <span class="about__information-subtitle-small">Online 24/7</span>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <span class="section-subtitle">Expertise</span>
+            <h2 class="section-title">Mes domaines de compétence</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Data skills</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">R/Rmarkdown</span>
+                        <img src="./assets/img/icons/rlogo.png" alt="Icone Html" class="skills__img">
+                        <img src="./assets/img/icons/rmarkdown.jpeg" alt="Icone CSS" class="skills__img">
+                        <!-- <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__html"></span> -->
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Python</span>
+                        <img src="./assets/img/icons/python.png" alt="Icone JS" class="skills__img">
+                        <!-- <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__js"></span> -->
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">D3.js</span>
+                        <img src="./assets/img/icons/d3logo.png" alt="Icone React" class="skills__img">
+                        <!-- <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__react"></span> -->
+                    </div>
+
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__subtitle">Backend</h3>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Java</span>
+                        <img src="./assets/img/icons/java.png" alt="Icone Java" class="skills__img">
+                        <!-- <span class="skills__number">80%</span>
+                        <span class="skills__bar skills__java"></span> -->
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">Php</span>
+                        <img src="./assets/img/icons/php.png" alt="Icone Spring" class="skills__img">
+
+                        <!-- <span class="skills__number">70%</span>
+                        <span class="skills__bar skills__spring"></span> -->
+                    </div>
+
+                    <div class="skills__data">
+                        <span class="skills__name">SQL</span>
+                        <img src="./assets/img/icons/my-sql.png" alt="Icone MySQL" class="skills__img">
+                        <img src="./assets/img/icons/postgre.png" alt="Icone postgreSQL" class="skills__img_postgre">
+
+                        <!-- <span class="skills__number">50%</span>
+                        <span class="skills__bar skills__mysql"></span> -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJETS =====-->
+        <section class="works section" id="works">
+            <span class="section-subtitle">Mon Portfolio</span>
+            <h2 class="section-title">Projets Recents</h2>
+
+            <div class="works__container bd-grid">
+                <div class="popup-wrapper" id="popup-wrapper-1">
+                    <div class="nav_toggle_close popup_toggle_close" id="popup-close-1" onclick="displayPopup(this.id)">
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h1 class="popup-header-title">Analyse de données météorologiques</h1>
+                            <img src="./assets/img/analysis.PNG" alt="Image en-tête Blog" class="popup_img">
+                            <h5 class="popup-header-subtitle">
+                                Etude d'une base de données de températures riche de 93.832 observations sur 6 variables quatitatives.
+                                Ces données sont des températures relevées par 4 sondes posées d'amont en avale le long de la Touques(un fleuve de la Basse Normandie).
+                                L'objectif est de vérifier et d'extraire des informations sur une potentielle influence de la température de l'air sur la température
+                                de l'eau du fleuve. Mais aussi l'implication d'autres événements(la pluviométrie, le ruisellement du sol, l'ensoleillement ou encore
+                                les activités humaines) dans la variation de la température des eaux et donc l'impact directe sur les êtres vivant sous ces eaux.
+                                Il a été utilisé dans ce projet, les techniques de la statistique descriptive, les ACI et ACP afin de valider factuellement des hypothèses 
+                                difficillement observables sans traitement de données.
+                            
+                            </h5>
+                            <div class="popup-header-warning">
+                            </div>
+                        </div>
+                        <ul class="popup-content-links">
+                            <!-- <li class="popup-content-links-title">Liens</li> -->
+                            <li class="popup-content-links-server">
+                                <a download="" href="assets/Rapport_Analyse_de_données .pdf" class="button home__button" target="_blank">Lire le document
+                                </a>
+                            </li>
+                        </ul>
+                        <h4 class="popup-header-subsubtitle">Stack technique</h2>
+                            <ul class="popup-content-techno">
+                                <li class="popup-content-techno-list">
+                                    <div class="html-icons">
+                                        <img src="./assets/img/icons/rlogo.png" alt="Icone Html" class="techno-icon">
+                                        <img src="./assets/img/icons/rstudio.png" alt="Icone CSS" class="techno-icon">
+                                    </div>
+                                    <span>R/Rstudio</span>
+                                </li>
+                            </ul>
+
+                            <h4 class="popup-header-subsubtitle">Implémentations</h2>
+                                <div class="popup-techno">
+                                    <div class="popup-techno-column">
+                                        <ul> Statistiques descriptives
+                                            <li></li>
+                                            <li>- Moyenne/Médiane</li>
+                                            <li>- Minimum/Maximum </li>
+                                            <li>- Ecart type </li>
+                                            <li>- Premier quartile/Troisième quartile</li>
+                                        </ul>
+                                    </div>
+                                    <div class="popup-techno-column">
+                                        <ul>
+                                            <li>- Analyse en Composantes Indépendantes(ACI) </li>
+                                            <li>- Analyse en Composantes Principales(ACP)   </li>                                       
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+                <div class="popup-wrapper" id="popup-wrapper-2">
+                    <div class="nav_toggle_close popup_toggle_close" id="popup-close-2" onclick="displayPopup(this.id)">
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h1 class="popup-header-title">Portfolio</h1>
+                            <img src="./assets/img/portfolio.png" alt="Screen mon portfolio" class="popup_img">
+                            <h5 class="popup-header-subtitle">
+                                Le portfolio que vous êtes en train de consulter sous forme d'un site web statique
+                                responsive, en HTML/CSS pur avec un soupçon de JS.
+                            </h5>
+                        </div>
+
+                        <ul class="popup-content-links">
+                            <!-- <li>Liens</li> -->
+                            
+                        </ul>
+
+                        <h4 class="popup-header-subsubtitle">Stack technique</h2>
+                            <ul class="popup-content-techno">
+                                <li class="popup-content-techno-list">
+                                    <div class="html-icons">
+                                        <img src="./assets/img/icons/html.png" alt="Icone Html" class="techno-icon">
+                                        <img src="./assets/img/icons/css.png" alt="Icone CSS" class="techno-icon">
+                                    </div>
+                                    <span>HTML/CSS</span>
+                                </li>
+                                <li class="popup-content-techno-list">
+                                    <img src="./assets/img/icons/js.png" alt="Icone JS" class="techno-icon">
+                                    <span>JS</span>
+                                </li>
+                            </ul>
+
+                            <h4 class="popup-header-subsubtitle">Implémentations</h2>
+                                <div class="popup-techno">
+                                    <div class="popup-techno-column">
+                                        <ul>
+                                            <li>- Design/UX</li>
+                                            <li>- Mise en page responsive</li>
+                                            <li>- JS basique</li>
+                                            <li>- Emailing </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/portfolio.png" alt="Screen Portfolio">
+                    <div class="works__data">
+                        <span class="works__link" id="works-link-2" onclick="displayPopup(this.id)">
+                            <i class="bx bx-link-alt"></i>
+                        </span>
+                        <span class="works__title">Portfolio</span>
+                    </div>
+                </div>
+
+                <div class="works__img">
+                    <img src="assets/img/analysis.PNG" alt="Screen Analysis">
+                    <div class="works__data">
+                        <span class="works__link" id="works-link-1" onclick="displayPopup(this.id)">
+                            <i class="bx bx-link-alt"></i>
+                        </span>
+                        <span class="works__title">Analyse de données météorologiques</span>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <span class="section-subtitle">Contact</span>
+            <h2 class="section-title">Comment me joindre?</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formsubmit.co/bachirmailpro980@gmail.com" class="contact__form" method="POST">
+            <div class=" contact__inputs">
+                    <input name="nom" type="text" placeholder="Nom" class="contact__input" required>
+                    <input name="email" type="text" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Adresse email invalide"
+                        placeholder="Email" class="contact__input" required>
+            </div>
+
+            <input name="contact" type="text" placeholder="Sujet" class="contact__input">
+
+            <textarea name="message" id="" cols="0" rows="5" placeholder="Votre Message"
+                class="contact__input"></textarea>
+
+            <!--<input type="hidden" name="_next" value="https://ablache-hub.github.io/Portfolio/">-->
+            <input type="submit" value="Envoyer" class="button contact__button">
+            </form>
+
+            <!-- <form action="https://formsubmit.co/alexandreblache.pro@gmail.com" method="POST">
+            <input type="text" name="name" required>
+            <input type="email" name="email" required>
+            <button type="submit">Send</button>
+            </form> -->
+
+            <div>
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Numéro</h3>
+                    <span class="contact__text">07 55 05 78 00</span>
+                </div>
+
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Email</h3>
+                    <span class="contact__text">bachirmailpro980@gmail.com</span>
+                </div>
+
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Localisation</h3>
+                    <span class="contact__text">Caen - France</span>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <!--===== MAIN JS =====-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
