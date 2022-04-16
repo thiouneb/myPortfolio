@@ -219,6 +219,88 @@
             <h2 class="section-title">Projets Recents</h2>
 
             <div class="works__container bd-grid">
+                <div class="popup-wrapper" id="popup-wrapper-4">
+                    <div class="nav_toggle_close popup_toggle_close" id="popup-close-4" onclick="displayPopup(this.id)">
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <div class="popup-content">
+                        <div class="popup-header">
+                            <h1 class="popup-header-title">Mise en grappe (Clustering) et sélection de passerelles mobiles dans les réseaux VANET 5G</h1>
+                            <img src="./assets/img/vanet.jpg" alt="Image en-tête Blog" class="popup_img">
+                            <h5 class="popup-header-subtitle">
+                                Ce projet vise à simuler des algorithmes intelligents pour la sélection des passerelles mobiles
+                                pour relayer le trafic de véhicules (réseau VANET) vers les petites cellules (WiFi ou réseau mobile 4G/5G). 
+                                Ces algorithmes doivent prendre en considération différentes contraintes : 
+                                portée radio, vitesse, nombre de nœuds par passerelle et par cellule, qualité de service, temps de calcul, etc.
+                                Un réseau ad hoc véhiculaire (VANET) est un système de noeuds (véhicules) qui sont connectés les uns aux autres par des technologies sans fil. 
+                                Ce type de réseau vise à améliorer la sécurité et l’efficacité du traffic routier.
+                                Le problème de sélection des passerelles mobiles est formulé sous forme d’un problème de programmation linéaire binaire 
+                                multi-objectif (MO-BIP). La fonction d’utilité est exprimée sous forme d’une fonction multi-objective avec un premier terme 
+                                qui vise à sélectionner les véhicules qui sont à une distance minimale de la passerelle, et un deuxième terme qui vise 
+                                à sélectionner les passerelles qui ont le meilleur niveau de signal avec un temps de séjour moyen maximum.
+                                Le but du projet est donc de répondre à la question qui aborde la compétitivité des protocoles de routages des réseaux VANET 
+                                et de mener une étude comparative entre les statistiques générées par ces protocoles dans le cas d’un réseau 
+                                clustérisé (suivant certains critères d’optimalité) et un réseau distribué uniformément.
+                            
+                            </h5>
+                            <div class="popup-header-warning">
+                            </div>
+                        </div>
+                        <ul class="popup-content-links">
+                            <!-- <li class="popup-content-links-title">Liens</li> -->
+                            <li class="popup-content-links-server">
+                                <a download="" href="assets/Présentation_Anglais.pdf" class="button home__button" target="_blank">Lire le document
+                                </a>
+                            </li>
+                        </ul>
+                        <h4 class="popup-header-subsubtitle">Stack technique</h2>
+                            <ul class="popup-content-techno">
+                                <li class="popup-content-techno-list">
+                                    <div class="html-icons">
+                                        <img src="./assets/img/icons/ns3.png" alt="Icone Html" class="techno-icon">
+                                    </div>
+                                    <span>NS3</span>
+                                </li>
+                                <li class="popup-content-techno-list">
+                                    <div class="html-icons">
+                                        <img src="./assets/img/icons/sumo.jpg" alt="Icone CSS" class="techno-icon">
+                                        <img src="./assets/img/icons/osm.png" alt="Icone Html" class="techno-icon">
+                                    </div>
+                                    <span>SUMO/OSM</span>
+                                </li>
+                                <li class="popup-content-techno-list">
+                                    <div class="html-icons">
+                                        <img src="./assets/img/icons/gurobi.jpg" alt="Icone CSS" class="techno-icon">
+                                    </div>
+                                    <span>GUROBI</span>
+                                </li>
+                            </ul>
+
+                            <h4 class="popup-header-subsubtitle">Implémentations</h2>
+                                <div class="popup-techno">
+                                    <div class="popup-techno-column">
+                                        <ul>Clustering
+                                            <li></li>
+                                            <li>- Implémentation de l'algorithme de Clustering avec C++</li>
+                                            <li>- Résolution de l'algorithme de Clustering avec Gurobi</li>
+                                        </ul>
+                                    </div>
+                                    <div class="popup-techno-column">
+                                        <ul>SUMO & NS3
+                                            <li>- Gérérer des scénarios avec différents degrés de densité à l'aide de Sumo</li>
+                                            <li>- Exporter les données Sumo en fichier de mobilité exploitable par ns3</li>                                    
+                                        </ul>
+                                    </div>
+                                    <div class="popup-techno-column">
+                                        <ul>GPSR
+                                            <li>- Simulation du protocole de routage GPSR avec un réseau clustérisé</li>
+                                            <li>- Simulation du protocole de routage GPSR avec un réseau distribué uniformément</li>                                    
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+
                 <div class="popup-wrapper" id="popup-wrapper-3">
                     <div class="nav_toggle_close popup_toggle_close" id="popup-close-3" onclick="displayPopup(this.id)">
                         <i class="bx bx-x"></i>
@@ -429,6 +511,15 @@
                     </div>
                 </div>
 
+                <div class="works__img">
+                    <img src="assets/img/vanet.jpg" alt="Screen Analysis">
+                    <div class="works__data">
+                        <span class="works__link" id="works-link-4" onclick="displayPopup(this.id)">
+                            <i class="bx bx-link-alt"></i>
+                        </span>
+                        <span class="works__title">Clustering dans les réseaux VANET 5G</span>
+                    </div>
+                </div>
             </div>
 
             

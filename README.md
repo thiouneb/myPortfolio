@@ -1,4 +1,2 @@
-## Responsive Portfolio
-
-## HTML/CSS/Js
-
+# Responsive Portfolio# Portfolio
+# Portfolio
